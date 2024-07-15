@@ -8,7 +8,7 @@ section {
     margin-right: 20px;
 }
 #home {
-    background: url('img src/bg_rv.jpg') no-repeat center center;
+    background: url('src/bg_rv.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     height: 100vh;
@@ -20,3 +20,18 @@ section {
     background-color: #f8f9fa;
 }
     
+  #wh:hover{
+    color: #25D366 !important ;
+  }
+  #fb:hover {
+    color:  #1877F2 !important; /* Change to your desired color */
+  }
+#x:hover{
+    color: white !important;
+}  
+#insta:hover {
+    color: #E4405F !important; /* Change to your desired color */
+  }
+#yt:hover{
+    color: red !important;
+}
