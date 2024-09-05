@@ -15,7 +15,4 @@ $(document).ready(function() {
             }
         }
     });
-    $('#sentmailbtn').click(function(){
-        alert("This functionality currently unavailable. Try Whatsapp or Instagram");
-    });
 });
