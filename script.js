@@ -15,4 +15,7 @@ $(document).ready(function() {
             }
         }
     });
+    $('#sentmailbtn').clikc(funtion(){
+        alter("This functionality currently unavailable. Try Whatsapp or instagram");
+    });
 });
