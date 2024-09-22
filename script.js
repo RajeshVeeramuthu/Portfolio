@@ -1,5 +1,10 @@
 $(document).ready(function() {
-        $("#home").slideDown("slow")
+    $("#home")
+    .css({ opacity: 0, position: 'relative' })
+    .slideDown(1000)
+    .animate({ opacity: 1 }, { duration: 1500, queue: false })
+    .animate({ top: "-30px" }, 400)  
+    .animate({ top: "0px" }, 400);
 
     $('.nav-link').on('click', function(event) {
         if (this.hash !== "") {
