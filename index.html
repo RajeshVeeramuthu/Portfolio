@@ -134,7 +134,7 @@
 </section>
 <footer class="d-flex flex-wrap justify-content-between align-items-center  border-top bg-dark text-light p-3">
     <div class="col-md-4 d-flex align-items-center">
-      <span id="cmpny" class="text-muted h6 ms-4">© 2024-25  All Rights Recivied </span>
+      <span id="cmpny" class="text-muted h6 ms-4" onclick="notes_redir()">© 2024-25  All Rights Recivied </span>
     </div>
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex me-5">
       <li class="ms-3">
@@ -171,5 +171,8 @@
          document.getElementById('email').value = '';
          document.getElementById('message').value = '';
         }
+    function notes_redir(){
+        window.open('https://hexa-mca-notes.netlify.app/', '_blank');
+    }
 </script>
 </html>
