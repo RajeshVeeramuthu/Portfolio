@@ -24,14 +24,37 @@ section {
     color: #25D366 !important ;
   }
   #fb:hover {
-    color:  #1877F2 !important; /* Change to your desired color */
+    color:  #1877F2 !important; 
   }
 #x:hover{
     color: white !important;
 }  
 #insta:hover {
-    color: #E4405F !important; /* Change to your desired color */
+    color: #E4405F !important; 
   }
 #yt:hover{
     color: red !important;
+}
+.nav-icon:hover{
+    color:red;
+}
+
+.nav-bulb-hover:hover{
+    color: rgb(236, 236, 71)!important;
+}
+
+.nav-pro-hover:hover{
+    color: #6C757D !important;
+}
+
+.nav-contact-hover:hover{
+    color:#DC3545 !important;
+}
+
+.nav-home-hover:hover{
+    color:#007BFF !important;
+}
+
+.nav-service-hover:hover{
+    color:#FFC107 !important;
 }
