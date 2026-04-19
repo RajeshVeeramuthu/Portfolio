@@ -1,60 +1,108 @@
 body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #F8FAFC;
+    color: #0F172A;
     scroll-behavior: smooth;
 }
-section {
-    padding: 60px 0;
+
+/* NAVBAR */
+.navbar {
+    background: #0F172A;
 }
-.navbar-nav .nav-link {
-    margin-right: 20px;
+
+.navbar .nav-link {
+    color: #E2E8F0 !important;
+    transition: 0.3s;
 }
+
+.navbar .nav-link:hover {
+    color: #22C55E !important;
+}
+
+/* HERO */
 #home {
-    background: url('src/bg_rv.jpg') no-repeat center center;
-    background-size: cover;
-    color: white;
     height: 100vh;
-}
-#home h1 {
-    margin-top: 20%;
-}
-.bg-light-gray {
-    background-color: #f8f9fa;
-}
-    
-  #wh:hover{
-    color: #25D366 !important ;
-  }
-  #fb:hover {
-    color:  #1877F2 !important; 
-  }
-#x:hover{
-    color: white !important;
-}  
-#insta:hover {
-    color: #E4405F !important; 
-  }
-#yt:hover{
-    color: red !important;
-}
-.nav-icon:hover{
-    color:red;
+    background: linear-gradient(135deg, #0A66C2, #0F172A);
 }
 
-.nav-bulb-hover:hover{
-    color: rgb(236, 236, 71)!important;
+/* HEADINGS */
+h1, h2 {
+    font-weight: bold;
 }
 
-.nav-pro-hover:hover{
-    color: #6C757D !important;
+/* BUTTONS */
+.btn-glow {
+    background: #0A66C2;
+    color: white;
+    border-radius: 30px;
+    transition: 0.3s;
 }
 
-.nav-contact-hover:hover{
-    color:#DC3545 !important;
+.btn-glow:hover {
+    background: #084a91;
+    transform: translateY(-2px);
 }
 
-.nav-home-hover:hover{
-    color:#007BFF !important;
+/* INSTAGRAM */
+.insta-btn {
+    background: #E1306C;
+    color: white;
+    border-radius: 30px;
 }
 
-.nav-service-hover:hover{
-    color:#FFC107 !important;
+/* SECTION */
+section {
+    padding: 80px 0;
+}
+
+/* SKILLS */
+.skill-card {
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #E2E8F0;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    border-color: #0A66C2;
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* PROJECT */
+.project-card {
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #E2E8F0;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.03);
+    border-color: #22C55E;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* EXPERIENCE */
+.exp-card {
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #E2E8F0;
+    transition: 0.3s;
+}
+
+.exp-card:hover {
+    transform: translateY(-5px);
+    border-color: #0A66C2;
+}
+
+/* FOOTER */
+footer {
+    background: #0F172A;
+    color: #CBD5F5;
 }
